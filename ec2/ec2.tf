@@ -22,7 +22,7 @@ resource "aws_security_group" "allow_ssh_terraform" {
     tags = {
         Name = "allow-sshh"
     }
-
+}
 
 resource "aws_instance" "terraform" {
 
@@ -33,4 +33,3 @@ resource "aws_instance" "terraform" {
         Name = "terraform"
     }
 }   
-}
