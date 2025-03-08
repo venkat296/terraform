@@ -30,6 +30,6 @@ resource "aws_security_group" "allow_ssh_terraform" {
   }
 
   tags = {
-    Name = "allo0w_sshh"
+    Name = "allow_sshh"
   }
 }
