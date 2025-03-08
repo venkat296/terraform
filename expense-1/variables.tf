@@ -4,10 +4,10 @@ variable "instance_names" {
   description = "description"
 }
 
-# variable "domain_name" {
-#   default = "daws81s.online"
-# }
+variable "zone_id" {
+    default = "Z067491539R6SKCF2LQ00"
+}
 
-# variable "zone_id" {
-#   default = "Z09912121MS725XSKH1TG"
-# }
+variable "domain_name" {
+    default = "durgay.shop"
+}
