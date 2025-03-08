@@ -1,4 +1,4 @@
-resource "aws_instance" "terraform" {
+resource "aws_instance" "m" {
   count                  = length(var.instance_names)
   ami                    = ami-09c813fb71547fc4f
   instance_type          = var.instance_names[count.index] == "mysql" ? "t3.small" : "t3.micro"
